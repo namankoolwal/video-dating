@@ -11622,3 +11622,37 @@ footer a:hover, footer a:active, footer a:focus {
     max-width: 17rem;
   }
 }
+.anime{
+  animation: anime-move 2s linear forwards;
+}
+@keyframes anime-move {
+  0% {
+    transform: translateX(-180px);
+  }
+  50%{
+    transform: translateX(0px);
+    
+  }
+ }
+.anime2{
+  animation: anime2-move 1s linear forwards;
+  
+}
+
+/* 
+@keyframes anime2-move {
+  to {
+    transform: translateX(40px);
+  }
+}
+#anime3{
+  animation: anime-move 1s linear forwards;
+}
+@keyframes anime-move {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-100px);
+  }
+} */
